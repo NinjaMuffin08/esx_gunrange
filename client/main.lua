@@ -258,7 +258,7 @@ local elements = {
 			sShoot = true
 	  		spwnT = true
 	  		TriggerEvent('gunrange:start')
-	  		TriggerServerEvent('gunrange:sShoot',wTime,mTargets)
+	  		TriggerServerEvent('gunrange:startShooting',wTime,mTargets)
 			ESX.UI.Menu.CloseAll()
 
 		end,function(data2,menu2) menu2.close() end)
